@@ -715,7 +715,7 @@ async def first_claw(interaction: discord.Interaction):
         )
         return
 
-    base64_flag = "Q1NJVUx7U3B5Q2F0X2lzX3dhdGNoaW5nX3lvdX0="
+    base64_flag = "Q1NJVUx7U3B5Q2F0X2lzX3RyYWNraW5nX3lvdX0="
     msg = (
         """``` 
 
@@ -788,7 +788,7 @@ Rappelle-toi :
 
 Quand tu croiras être digne, apporte-moi ta preuve :
 
-NDYgNTYgNGMgNTggNGYgN2IgNzcgNmIgNjggNWYgNzcgNzUgNzggNjggNWYgNmIgNmMgNjcgNjggNzIgNzggNzcgNWYgNzIgNjkgNWYgNzYgNzMgNjIgNjYgNjQgNzcgNWYgNmMgNzYgNWYgNzIgNzEgNmYgNjIgNWYgNjkgNzIgNzUgNWYgNzcgNmIgNjggNWYgNzYgNmIgNjQgNzUgNzMgNjggNzYgNzcgNWYgNjQgNmEgNjggNzEgNzcgNzYgN2Q%3D
+NDYgNTYgNGMgNTggNGYgN2IgNTYgNzMgNjIgNDYgNjQgNzcgNWYgNmIgNmMgNjcgNjggNzYgNWYgN2EgNmIgNjggNzUgNjggNWYgNzIgNzEgNmYgNjIgNWYgNjggNmYgNmMgNzcgNjggNzYgNWYgNzUgNjggNjQgNjYgNmIgN2Q%3D
 
 {spycat_roulette} *Si ta patte tremble,* murmure `/hint challenge:spycat_hideout`  
 … mais sache que ma roulette n’a pas de pitié pour les faibles.
@@ -857,7 +857,7 @@ async def terminal(interaction: discord.Interaction, cmd: str):
                 """
             )
         elif file == "../secret_flag.txt":
-            output = "CSIUL{SpyCat_Loves_HoneyPaws}"
+            output = "CSIUL{SpyCat_plays_with_HoneyPaws}"
         else:
             output = f"cat: {file}: Aucun fichier ou dossier de ce type"
     elif cmd == "ls ..":
